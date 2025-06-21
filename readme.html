@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GeoTagger-Python</title>
+  <style>
+    :root {
+      --bg: #0f1116;
+      --fg: #f1f1f1;
+      --card: #1e1e2f;
+      --accent: #00bfff;
+      --border: #2e2e3e;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1, h2 {
+      color: var(--fg);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 6px;
+    }
+
+    code {
+      background: var(--card);
+      color: var(--accent);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+
+    pre {
+      background: #1c1c2b;
+      color: #e0e0e0;
+      padding: 16px;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+
+    .tag {
+      background: var(--accent);
+      color: #000;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 40px;
+      padding-top: 20px;
+      font-size: 0.95em;
+      color: #aaa;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .yt-badge {
+      background: red;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    .yt-badge:hover {
+      background: #cc0000;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📍 GeoTagger-Python</h1>
+  <p><span class="tag">v1.0</span> A Python tool to auto-geotag your images and add a stylish map + location overlay at the bottom corner. Great for events, travel, or branding your media.</p>
+
+  <h2>🛠️ Features</h2>
+  <ul>
+    <li>✅ Adds GPS EXIF metadata to all JPEG/PNG images in a folder</li>
+    <li>🗺️ Pastes a mini map with event/location/weather details</li>
+    <li>🎯 Perfect for event-based or testing photo archives</li>
+    <li>⚡ Fast, offline, no API keys needed</li>
+  </ul>
+
+  <h2>🚀 How to Use</h2>
+  <ol>
+    <li>Place your JPEG/PNG files in the same folder as the script</li>
+    <li>Run the script using Python 3:</li>
+  </ol>
+  <pre><code>pip install -r requirements.txt
+python geostamp.py
+</code></pre>
+
+  <h2>📦 Requirements</h2>
+  <pre><code>Pillow==10.3.0
+piexif==1.1.3
+staticmap==0.5.4</code></pre>
+
+  <h2>📍 Default Location</h2>
+  <ul>
+    <li><strong>Place:</strong> Rourkela</li>
+    <li><strong>Event:</strong> Testing Image</li>
+    <li><strong>Lat/Lng:</strong> kuch bhi</li>
+  </ul>
+
+  <h2>👨‍💻 Made By</h2>
+  <p>Mr Jyotiprasad</p>
+
+  <footer>
+    <div>
+      © 2025 GeoTagger-Python · Created with ❤️ by Mr Jyotiprasad
+    </div>
+    <div>
+      <a href="https://www.youtube.com/@MrJyotiprasadd" target="_blank" class="yt-badge">🔔 Subscribe @MrJyotiprasadd</a>
+    </div>
+  </footer>
+
+</body>
+</html>
